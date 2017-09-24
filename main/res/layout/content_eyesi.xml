@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_eyesi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.chakravarthy.cibi.medic4all.eyesi"
+    tools:showIn="@layout/activity_eyesi">
+    <TextView
+        android:text="eye problems
+1.Defective vision\n
+2.Itching eyes\n
+3.Watering eyes\n
+4.Discharge eyes\n
+5.Headache or Eye pain\n
+6.Seeing double\n
+8.Floaters\n
+
+
+        "
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#60AF9E"
+        android:textColor="#427369"
+        android:id="@+id/symdesc" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:
+        android:layout_below="@id/symdesc"
+        android:text="continue"
+        android:onClick="othsym"/>
+
+</RelativeLayout>

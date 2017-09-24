@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Medic4All</string>
+    <string name="title_activity_database">database</string>
+    <string name="title_activity_eyesi">eyesi</string>
+</resources>

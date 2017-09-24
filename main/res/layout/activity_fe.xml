@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.chakravarthy.cibi.medic4all.fe">
+    <TextView
+        android:text="fever
+
+Fever i.e increase in body temperature (above37◦C)is a non specific protective response of body to injury and infection(entry of micro organism into body). Fever usually associated with anorexia(loss of appetite), dehydration, lassitude, hyperalgesia(increased sensitivity to pain), depression, sleeplessness. If it is high grade it usually associated with rigor (shivering)and ends with sweating. In case of children of age 5months to 5years it may associated with seizures(febrile fits)
+
+
+
+
+        "
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:background="#D3D3D3"
+        android:id="@+id/symdesc" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/symdesc"
+        android:text="continue"
+        android:onClick="othsym"/>
+
+</RelativeLayout>
